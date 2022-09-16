@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Social Media</title>
+    <link rel="stylesheet" href="master.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <figure>
+            <img src="Img/backGround.jpg" alt="">
+        </figure>
+
+        <div class="box">
+
+            <div class="top">
+                <figure>
+                    <img src="Img/IWFZ3927.jpeg" alt="">
+                </figure>
+                <h3>good morning, maryam !</h3>
+                <input type="text" placeholder="search app & windows">
+            </div>
+
+            <ul>
+                <li onclick="_filter(this)" data-status="top">Top apps</li>
+                <li onclick="_filter(this)" data-status="recently">Recently added</li>
+                <li onclick="_filter(this)" data-status="all">All apps</li>
+            </ul>
+
+            <div class="filter">
+                <figure data-status="top"><i class="fa-brands fa-linkedin"></i></figure>
+                <figure data-status="recently"><i class="fa-brands fa-facebook"></i></figure>
+                <figure data-status="top"><i class="fa-brands fa-twitter"></i></figure>
+                <figure data-status="recently"><i class="fa-brands fa-telegram"></i></figure>
+                <figure data-status="top"><i class="fa-brands fa-chrome"></i></figure>
+                <figure data-status="recently"><i class="fa-brands fa-snapchat"></i></figure>
+                <figure data-status="recently"><i class="fa-brands fa-whatsapp"></i></figure>
+                <figure data-status="recently"><i class="fa-brands fa-instagram"></i></figure>
+                <figure data-status="recently"><i class="fa-solid fa-envelope"></i></figure>
+                <figure data-status="top"><i class="fa-brands fa-youtube"></i></figure>
+                <figure data-status="recently"><i class="fa-brands fa-google-drive"></i></figure>
+                <figure data-status="top"><i class="fa-brands fa-pinterest"></i></figure>
+            </div>
+
+            <div class="last">
+                <i class="fa-solid fa-gear"></i>
+                <i class="fa-solid fa-power-off"></i>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script src="https://kit.fontawesome.com/ac98a5dc62.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>

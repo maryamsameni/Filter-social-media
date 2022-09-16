@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+/* ************ */
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.main>figure {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.main>figure>img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ************ */
+
+.box {
+    width: 40%;
+    height: 92%;
+    background-color: rgba(209, 204, 204, 0.466);
+    position: absolute;
+    top: 4%;
+    left: 30%;
+    border-radius: 15px;
+    padding: 0 35px;
+}
+
+/* ************ */
+
+.top {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.top>figure {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.top>figure>img {
+    width: 18%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top>h3 {
+    text-transform: capitalize;
+}
+
+.top>input {
+    width: 85%;
+    padding: 8px;
+    outline: 0;
+    border: 1px solid rgba(128, 128, 128, 0.514);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.top>input::placeholder {
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(128, 128, 128, 0.514);
+}
+
+/* ************ */
+
+ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+ul>li {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+ul>li:hover {
+    color: #F9E7D1;
+}
+
+/* ************ */
+
+.filter {
+    padding: 0 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filter>figure {
+    width: 20.5%;
+    height: 80px;
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.filter>figure:hover {
+    background-color: #f9e7d19f;
+}
+
+.filter>figure>i {
+    width: 100%;
+    height: 100%;
+    font-size: 28px;
+    line-height: 80px;
+    text-align: center;
+}
+
+/* ************ */
+
+.last {
+    width: 100%;
+    display: flex;
+    align-items: text;
+    justify-content: flex-end;
+}
+
+.last>i {
+    margin-top: 5px;
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.733);
+    color: 15px;
+}
+
+/* ************ */
+
+i {
+    cursor: pointer;
+}
